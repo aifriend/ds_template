@@ -16,8 +16,9 @@ classifiers = [
 Changelog = "https://github.com/aifriend/pdf2readable/releases"
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.10"
 click = ">=8.0.1"
+python-dotenv = ">=1.0.0"
 
 [tool.poetry.dev-dependencies]
 Pygments = ">=2.10.0"

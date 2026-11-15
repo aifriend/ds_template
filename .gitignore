@@ -98,3 +98,9 @@ fabric.properties
 /docs/_build/
 /src/*.egg-info/
 __pycache__/
+
+# Local environment and coverage data (never commit)
+.env
+.coverage
+.coverage.*
+!.env.example
